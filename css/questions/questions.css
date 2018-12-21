@@ -41,10 +41,12 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-left: 30px;
 }
 
 .questions__item_first {
   margin-top: 0;
+  margin-left: 0;
 }
 
 .questions__mini-title {
