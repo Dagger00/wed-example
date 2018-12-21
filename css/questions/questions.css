@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "BPH";
+  src: url(../../fonts/blisspro-heavy.otf);
+}
+@font-face {
+  font-family: "G";
+  src: url(../../fonts/GOTHIC.TTF);
+}
+
+.questions {
+  display: flex;
+  justify-content: center;
+}
+
+.questions__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.questions__title {
+  margin-top: 50px;
+  text-align: center;
+  font-family: BAI, serif;
+}
+
+.questions__container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.questions__item {
+  margin-top: 40px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.questions__item_first {
+  margin-top: 0;
+}
+
+.questions__mini-title {
+  font-family: BPH, serif;
+  font-size: 52px;
+}
+
+.questions__description {
+  margin-top: 20px;
+  font-family: G, serif;
+  text-transform: uppercase;
+}
+.questions__image {
+  width: 50px;
+}

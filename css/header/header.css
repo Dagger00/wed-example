@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+.header__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__image {
+  width: 100%;
+  height: auto;
+}

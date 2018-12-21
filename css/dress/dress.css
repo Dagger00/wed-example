@@ -1,0 +1,42 @@
+.dress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+.dress__inner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 50px;
+
+}
+
+.dress__title {
+  margin-top: 50px;
+  text-transform: uppercase;
+  font-family: BPH, serif;
+}
+
+.dress__description {
+  margin-top: 15px;
+  font-family: BAI, serif;
+  text-align: center;
+}
+
+.dress__images {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dress__image {
+  width: 310px;
+}

@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "BAI";
+  src: url(../../fonts/ANTQUAI.TTF);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.footer__inner {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.footer__text {
+  text-align: center;
+  font-family: BAI, serif;
+  color: #ffffff;
+}

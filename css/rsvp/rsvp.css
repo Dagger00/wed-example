@@ -1,0 +1,34 @@
+.rsvp {
+  display: flex;
+  justify-content: center;
+  background-color: #e62334;
+  color: #f28ca2;
+}
+
+.rsvp__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.rsvp__title {
+  margin-top: 50px;
+  font-family: BPH, serif;
+}
+
+.rsvp__description {
+  text-align: center;
+  margin-top: 20px;
+  font-family: BAI, serif;
+}
+
+.rsvp__link {
+  margin-top: 20px;
+  font-family: G, serif;
+  text-decoration: none;
+  background-color: #f7bac9;
+  color: #e62334;
+  width: 150px;
+  text-align: center;
+}
