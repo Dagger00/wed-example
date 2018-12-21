@@ -62,3 +62,9 @@
 .questions__image {
   width: 50px;
 }
+
+@media all and (max-width: 468px){
+  .questions__item {
+    margin: 0;
+  }
+}
